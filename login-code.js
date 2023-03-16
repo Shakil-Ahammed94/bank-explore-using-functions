@@ -9,7 +9,7 @@ document.getElementById('btn').addEventListener('click',function(){
 
 
     if(emailValue== 'shakil@gmail.com' && passValue=='secret'){
-        window.location.href='http://127.0.0.1:5500/bank-details.html';
+        window.location.href='bank-details.html';
     }
     else{
         alert('Please enter correct details');
